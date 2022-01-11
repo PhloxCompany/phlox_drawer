@@ -41,6 +41,7 @@ check `/example` folder.
 ### example 1
 
 image :
+
 ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer1.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
@@ -63,6 +64,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ### example 2
 image :
+
+
 ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer2.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
@@ -85,6 +88,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ### example 3 
 image :
+
+
 ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer3.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
