@@ -10,7 +10,9 @@
 ## Images
 
 options | PhloxDrawerOption.oneScreen() | PhloxDrawerOption.twoScreen() | PhloxDrawerOption.threeScreen()
-gif | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer1.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer2.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer3.gif?raw=true)
+--- | --- | --- | ---
+gif | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/assets/drawer1.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/assets/drawer2.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/assets/drawer3.gif?raw=true)
+--- | --- | --- | ---
 codes | (example1) | (example2) | (example3)
 
 
