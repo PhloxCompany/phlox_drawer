@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return PhloxDrawer(
       context: context,
       controller: controller,
-      options: PhloxDrawerOption.threeScreen(),
-      duration: Duration(seconds: 3),
+      options: PhloxDrawerOption.oneScreen(),
+      duration: Duration(seconds: 1),
       drawerPage: Scaffold(
         backgroundColor: const Color(0xff0a174b),
         body: Padding(

@@ -1,8 +1,7 @@
 name: phlox_drawer
-description: Customizable, fast and beautiful drawer in flutter. you can edit your drawer
-in phlox_drawer package
+description: Customizable, fast and beautiful drawer in flutter. you can edit your drawer in phlox_drawer package
 version: 0.0.1
-homepage:
+homepage: https://github.com/phloxCompany/phlox_drawer.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

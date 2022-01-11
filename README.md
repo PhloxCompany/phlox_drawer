@@ -1,39 +1,101 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# 📱 Phlox Drawer package
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+[![flutter drawer pub get package version](https://img.shields.io/badge/pub-1.0.0-red)](https://pub.dev/packages/phlox_drawer)
+[![flutter drawer phlox company](https://img.shields.io/badge/Flutter-PhloxCompany-blue)](https://pub.dev/packages/phlox_drawer)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+**Phlox Drawer** is a simple package to create beautiful custom drawer .
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+- Animate **multiple properties** at once
 
-## Features
+## Images
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+options | PhloxDrawerOption.oneScreen() | PhloxDrawerOption.twoScreen() | PhloxDrawerOption.threeScreen()
+gif | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer1.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer2.gif?raw=true) | ![flutter drawer](https://github.com/phloxCompany/flutter_drawer/assets/drawer3.gif?raw=true)
+codes | (example1) | (example2) | (example3)
+
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+
+- add package
+
+```yaml
+dependencies:
+  phlox_drawer: ^1.0.0
+```
+
+```commandline
+flutter pub get
+flutter pub upgrade
+```
+
+<!-- #toc -->
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
 
+check `/example` folder. 
+
+
+### example 1
 ```dart
-const like = 'sample';
+class _MyHomePageState extends State<MyHomePage> {
+  PhloxDrawerController controller = PhloxDrawerController();
+
+  @override
+  Widget build(BuildContext context) {
+    return PhloxDrawer(
+      context: context,
+      controller: controller,
+      options: PhloxDrawerOption.oneScreen(),
+      duration: Duration(seconds: 1),
+      drawerPage: Scaffold(),
+      mainPage: Scaffold(),
+    );
+  }
+}
+```
+
+
+### example 2
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  PhloxDrawerController controller = PhloxDrawerController();
+
+  @override
+  Widget build(BuildContext context) {
+    return PhloxDrawer(
+      context: context,
+      controller: controller,
+      options: PhloxDrawerOption.twoScreen(),
+      duration: Duration(seconds: 1),
+      drawerPage: Scaffold(),
+      mainPage: Scaffold(),
+    );
+  }
+}
+```
+
+
+### example 3
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  PhloxDrawerController controller = PhloxDrawerController();
+
+  @override
+  Widget build(BuildContext context) {
+    return PhloxDrawer(
+      context: context,
+      controller: controller,
+      options: PhloxDrawerOption.threeScreen(),
+      duration: Duration(seconds: 1),
+      drawerPage: Scaffold(),
+      mainPage: Scaffold(),
+    );
+  }
+}
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+Just add two Widget inside PhloxDrawer and control with PhloxDrawerController

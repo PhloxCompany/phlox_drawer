@@ -1,3 +1,6 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* first publish
+## 1.0.0
+
+* change readme 1
