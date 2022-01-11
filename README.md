@@ -11,7 +11,7 @@
 
 options | PhloxDrawerOption.oneScreen() | PhloxDrawerOption.twoScreen() | PhloxDrawerOption.threeScreen()
 --- | --- | --- | ---
-gif | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer1.gif) | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer2.gif) | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer3.gif)
+gif | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer1.gif) | ![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer2.gif) |![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer3.gif)
 codes | (example1) | (example2) | (example3)
 
 
@@ -39,6 +39,9 @@ check `/example` folder.
 
 
 ### example 1
+
+image :
+![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer1.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
   PhloxDrawerController controller = PhloxDrawerController();
@@ -59,6 +62,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 ### example 2
+image :
+![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer2.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
   PhloxDrawerController controller = PhloxDrawerController();
@@ -79,6 +84,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 ### example 3
+image :
+![flutter drawer](https://github.com/phloxCompany/phlox_drawer/blob/master/assets/drawer3.gif)
 ```dart
 class _MyHomePageState extends State<MyHomePage> {
   PhloxDrawerController controller = PhloxDrawerController();
